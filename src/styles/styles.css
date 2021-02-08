@@ -1,5 +1,9 @@
 @import './base/_base.css';
 @import './base/_settings.css';
 
-@import './components/card.css'
+/*Componenetes*/
+
+@import './components/card.css';
+@import './components/desarrolloScreen.css'
+
 

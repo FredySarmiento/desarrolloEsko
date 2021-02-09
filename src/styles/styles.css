@@ -4,6 +4,6 @@
 /*Componenetes*/
 
 @import './components/card.css';
-@import './components/desarrolloScreen.css'
-
-
+@import './components/desarrolloScreen.css';
+@import './components/navbar.css';
+@import './components/title.css';

@@ -11,7 +11,6 @@ export const Card = (props) => {
                     <p> {props.content_card} </p>
                     </div>             
                 </div>
-
         </div>
     )
 }

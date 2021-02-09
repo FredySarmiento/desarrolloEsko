@@ -1,12 +1,13 @@
 import React from 'react'
 import { Header } from './Header';
 import {Card} from './Card'
+import { Title } from './Title';
 const DesarrolloScreen = () => {
     return (
         <div>
             <main>
                 <Header />
-                <h1>Consideraciones iniciales </h1>
+                <Title />
                 <div className="content_section">
                     <Card className="card1"
                     title_card='Titulo de 1ra carta'
@@ -26,6 +27,9 @@ const DesarrolloScreen = () => {
                     content_card='Si el cliente desea que se le desarrolle una formula exclusiva
                     se tienen los siguientes puntos:'
                     />
+                </div>
+                <div className="content_section">
+                    <h1>Proceso</h1>
                 </div>
             </main>
         </div>

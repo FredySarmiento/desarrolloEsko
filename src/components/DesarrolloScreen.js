@@ -2,6 +2,7 @@ import React from 'react'
 import { Header } from './Header';
 import {Card} from './Card'
 import { Title } from './Title';
+
 const DesarrolloScreen = () => {
     return (
         <div>
@@ -9,21 +10,21 @@ const DesarrolloScreen = () => {
                 <Header />
                 <Title />
                 <div className="content_section">
-                    <Card className="card1"
-                    title_card='Titulo de 1ra carta'
+                    <Card 
+                    title_card='Cosideración 1'
                     content_card='Laboratorios ESKO en razón de los equipos que posee por 
                     estar certificado en buenas prácticas de manufactura solo puede fabricar
                     productos cuya cantidad mínima sean 100 Kg por referencia o de acuerdo 
                     con la presentación 1000u de producto terminado.'
                     />
                     <Card 
-                    title_card='Titulo de 2ra carta'
+                    title_card='Consideración 2'
                     content_card='Si el cliente tiene fórmulas aprobadas, se firma un acuerdo 
                     de confidencialidad y se procede a realizar ensayos de verificación de la
                     fórmula y entregar muestras al cliente para su evaluación.'
                     />
                     <Card 
-                    title_card='Titulo de 3ra carta'
+                    title_card='Consideración 3'
                     content_card='Si el cliente desea que se le desarrolle una formula exclusiva
                     se tienen los siguientes puntos:'
                     />

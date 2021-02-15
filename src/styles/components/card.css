@@ -35,6 +35,16 @@
     color: #fff;
     display: flex;
 }
+.card_front{
+    padding: 15px;
+    display: -ms-flexbox;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    display: flex;
+}
 .card:hover .card_box{
     transform:rotateY(180deg);
 }

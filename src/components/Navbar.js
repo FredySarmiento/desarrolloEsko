@@ -1,9 +1,10 @@
 import React from 'react';
+import Logoimg from '../img/esko.png'
 export const Navbar = () => {
     return (
         <div>
+             <img className='imgheader' src={Logoimg} alt=""></img>
             <ul>
-                <li><a href="#"/>Inicio</li>
                 <li><a href="#"/>Proceso</li>
                 <li><a href="#"/>Cronograma</li>
             </ul>

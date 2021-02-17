@@ -2,6 +2,7 @@ import React from 'react'
 import { Header } from './Header';
 import {Card} from './Card'
 import { Title } from './Title';
+import { Proceso } from './Proceso';
 
 const DesarrolloScreen = () => {
     return (
@@ -30,7 +31,7 @@ const DesarrolloScreen = () => {
                     />
                 </div>
                 <div className="content_section">
-                    <h1>Proceso</h1>
+                    <Proceso />
                 </div>
             </main>
         </div>

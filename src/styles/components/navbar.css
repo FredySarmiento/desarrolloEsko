@@ -6,9 +6,16 @@ li{
 }
 
 ul{
-    width: 1100px;;
-    margin: 10px auto;
+    width: 1100px;
+    margin: auto;
     display: flex;
     justify-content: center;
     cursor: hand;
+}
+
+.imgheader{
+    width: 15%;
+    height: 15%;
+    display: flex;
+    margin: auto;
 }

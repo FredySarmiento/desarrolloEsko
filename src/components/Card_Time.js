@@ -2,10 +2,10 @@ import React from 'react'
 
 export const Card_Time = (props) => {
     return (
-        <div>
+        <div className="timeline">
             <div className="demo-card democard--step2">
-                <div className="head-card">
-                    <div className="number-box">
+                <div className="head_card">
+                    <div className="number_box">
                         <span>{props.number}</span>
                     </div>
                     <h2>{props.title}</h2>

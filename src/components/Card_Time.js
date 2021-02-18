@@ -3,18 +3,15 @@ import React from 'react'
 export const Card_Time = (props) => {
     return (
         <div className="timeline">
-            <div className="demo-card democard--step2">
-                <div className="head_card">
-                    <div className="number_box">
-                        <span>{props.number}</span>
-                    </div>
+            <div className="timeline_text">
+                <div className="timeline_text-title">
                     <h2>{props.title}</h2>
                 </div>
-                <div className="body_card">
+                <div className="timeline_text-content">
                     <p>
                         {props.textbody}
                     </p>
-                    <img src={props.urlimg} />
+                    <img className="timeline_img"src={props.urlimg} />
                 </div>
             </div>
         </div>

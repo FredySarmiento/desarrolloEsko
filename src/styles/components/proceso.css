@@ -1,5 +1,28 @@
+.title_center{
+    text-align: center;
+    margin-bottom: 10px;
+}
 .timeline{
     background-color: blueviolet;
     width: 330px;
-    height: 350px;
+    height: 330px;
+    padding: 5%;
+    border-radius: 5%;
+}
+.timeline_text {
+    text-align: center;
+}
+
+.timeline_text-title{
+    text-align: center;
+}
+
+.timeline_text-content{
+    text-align: justify;
+    margin: 10px;
+}
+.timeline_img{
+    display: flex;
+    margin: auto;
+    width: 35%;
 }

@@ -13,6 +13,6 @@ export const Proceso = () => {
             muestra del sensorial que desea o producto similar.'
             urlimg={img1}
              />
-        </div>
+       </div>
     )
 }

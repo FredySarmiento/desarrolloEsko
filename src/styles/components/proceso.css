@@ -6,11 +6,17 @@
     background-color: blueviolet;
     width: 330px;
     height: 330px;
-    padding: 5%;
+    padding: 1%;
     border-radius: 5%;
+    margin: 10px;
 }
 .timeline_text {
     text-align: center;
+    font-size: small;
+}
+
+.timeline_text_p {
+    height: 120px;
 }
 
 .timeline_text-title{

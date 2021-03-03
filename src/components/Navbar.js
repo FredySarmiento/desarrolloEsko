@@ -4,10 +4,6 @@ export const Navbar = () => {
     return (
         <div>
              <img className='imgheader' src={Logoimg} alt=""></img>
-            <ul>
-                <li><a href="#"/>Proceso</li>
-                <li><a href="#"/>Cronograma</li>
-            </ul>
         </div>
     )
 }
